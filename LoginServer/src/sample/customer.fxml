@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Customer_controller">
+   <children>
+      <ImageView fx:id="im" fitHeight="150.0" fitWidth="591.0" layoutX="2.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="view_car" layoutX="39.0" layoutY="200.0" mnemonicParsing="false" onAction="#view_car" text="View Cars" />
+      <Button fx:id="Src_reg" layoutX="39.0" layoutY="244.0" mnemonicParsing="false" onAction="#src_reg" text="Search By Registraton" />
+      <Button fx:id="src_mk" layoutX="39.0" layoutY="290.0" mnemonicParsing="false" onAction="#src_maker" text="Search By Maker or Model" />
+      <TextField fx:id="maker_id" layoutX="107.0" layoutY="325.0" />
+      <TextField fx:id="model_id" layoutX="376.0" layoutY="325.0" />
+      <Label layoutX="39.0" layoutY="329.0" text="Maker" />
+      <Label layoutX="320.0" layoutY="329.0" text="Model" />
+      <TextField fx:id="reg" layoutX="363.0" layoutY="244.0" />
+      <Label layoutX="352.0" layoutY="204.0" prefHeight="18.0" prefWidth="172.0" text="Enter registration to search on" />
+   </children>
+</AnchorPane>

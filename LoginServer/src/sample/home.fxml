@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HomeController">
+   <children>
+      <Label fx:id="message" layoutX="20.0" layoutY="43.0" prefHeight="39.0" prefWidth="215.0">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="image" fitHeight="150.0" fitWidth="200.0" layoutX="20.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="button" layoutX="320.0" layoutY="252.0" mnemonicParsing="false" onAction="#logoutAction" text="Logout" />
+      <Button fx:id="add" layoutX="321.0" layoutY="80.0" mnemonicParsing="false" onAction="#add_car" text="Add" />
+      <Button fx:id="view_car" layoutX="314.0" layoutY="31.0" mnemonicParsing="false" onAction="#view_all_car" text="View Cars" />
+      <Button fx:id="car_edit" layoutX="314.0" layoutY="125.0" mnemonicParsing="false" onAction="#view_all_car" text="Edit Car" />
+      <Button fx:id="dlt" layoutX="317.0" layoutY="171.0" mnemonicParsing="false" onAction="#delete_car" text="Delete" />
+   </children>
+</AnchorPane>

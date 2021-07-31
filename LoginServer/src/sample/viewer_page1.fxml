@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.viewer_page1Controller">
+   <children>
+      <TextField fx:id="maker" layoutX="86.0" layoutY="26.0" prefHeight="26.0" prefWidth="149.0" />
+      <Button fx:id="save_bt" layoutX="385.0" layoutY="27.0" mnemonicParsing="false" onAction="#send" text="save" />
+      <TextField fx:id="model" layoutX="86.0" layoutY="73.0" />
+      <TextField fx:id="color1" layoutX="86.0" layoutY="118.0" />
+      <TextField fx:id="color2" layoutX="87.0" layoutY="166.0" />
+      <TextField fx:id="color3" layoutX="87.0" layoutY="215.0" />
+      <TextField fx:id="price" layoutX="87.0" layoutY="264.0" />
+      <Button fx:id="back" layoutX="379.0" layoutY="277.0" mnemonicParsing="false" onAction="#back" text="back" />
+      <Label fx:id="username" layoutX="348.0" layoutY="106.0" prefHeight="47.0" prefWidth="162.0" text="Label">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <TextField fx:id="reg" layoutX="107.0" layoutY="318.0" />
+      <Label layoutX="36.0" layoutY="31.0" text="Maker" />
+      <Label layoutX="36.0" layoutY="77.0" text="Model" />
+      <Label layoutX="36.0" layoutY="122.0" text="Color1" />
+      <Label layoutX="36.0" layoutY="170.0" text="Color2" />
+      <Label layoutX="36.0" layoutY="219.0" text="Color3" />
+      <Label layoutX="36.0" layoutY="268.0" text="Price" />
+      <Label layoutX="10.0" layoutY="322.0" prefHeight="18.0" prefWidth="98.0" text="Registration No" />
+      <TextField fx:id="count" layoutX="97.0" layoutY="371.0" prefHeight="26.0" prefWidth="84.0" />
+      <Label layoutX="22.0" layoutY="376.0" prefHeight="18.0" prefWidth="53.0" text="Count" />
+   </children>
+</AnchorPane>
